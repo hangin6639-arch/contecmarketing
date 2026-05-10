@@ -9,7 +9,7 @@ Brand Identity vs Market Image Alignment Analysis Project
 컨텍(Contec)
 
 프로젝트 목적:
---------------------
+
 본 프로젝트는 기업이 의도한 브랜드 정체성(Identity)이
 외부 시장 및 언론 담론(Image) 속에서 어떻게 소비되고
 왜곡되는지를 NLP 기반 의미 분석으로 측정하기 위한
