@@ -1,0 +1,45 @@
+2026-05-08 17:53:13,519 [INFO] 크롤링 시작 | 검색어: '컨텍 우주' | 기간: 2023-01-01 ~ 2024-12-31
+2026-05-08 17:53:14,584 [WARNING] 페이지 요청 실패: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EC%BB%A8%ED%85%8D%20%EC%9A%B0%EC%A3%BC&nso=so:dd,p:from20230101to20241231&start=1
+2026-05-08 17:53:14,584 [WARNING] 페이지 1 수집 실패, 중단
+2026-05-08 17:53:14,585 [WARNING] 수집된 기사가 없습니다.
+2026-05-08 20:30:13,169 [INFO] 크롤링 시작 | 검색어: '컨텍 우주' | 기간: 2023-01-01 ~ 2024-12-31
+2026-05-08 20:30:21,212 [INFO] 페이지 1: 결과 없음 → 크롤링 종료
+2026-05-08 20:30:21,365 [WARNING] 수집된 기사가 없습니다.
+2026-05-08 20:33:15,746 [INFO] 크롤링 시작 | 검색어: '컨텍 우주' | 기간: 2023-01-01 ~ 2024-12-31
+2026-05-08 20:33:18,108 [INFO] 페이지 1: 결과 없음 → 크롤링 종료
+2026-05-08 20:33:18,269 [WARNING] 수집된 기사가 없습니다.
+2026-05-08 20:54:07,699 [INFO] 크롤링 시작 | 검색어: '컨텍 우주' | 기간: 2023-01-01 ~ 2024-12-31
+2026-05-08 20:54:08,746 [INFO] 접속 시도: https://search.naver.com/search.naver?where=news&query=%EC%B...
+2026-05-08 20:54:23,030 [INFO] 5초 대기 중...
+2026-05-08 20:54:28,042 [INFO] 스크롤 실행
+2026-05-08 20:54:30,480 [INFO] 페이지 1: 결과 없음 → 크롤링 종료
+2026-05-08 20:54:31,221 [WARNING] 수집된 기사가 없습니다.
+2026-05-08 21:28:34,034 [INFO] 크롤링 시작 | 검색어: '컨텍 우주' | 기간: 2023-01-01 ~ 2024-12-31
+2026-05-08 21:28:35,657 [INFO] 접속 시도: https://search.naver.com/search.naver?where=news&query=%EC%B...
+2026-05-08 21:29:05,747 [WARNING] Playwright 페이지 요청 실패: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://search.naver.com/search.naver?where=news&query=%EC%BB%A8%ED%85%8D%20%EC%9A%B0%EC%A3%BC&nso=so:dd,p:from20230101to20241231&start=1", waiting until "networkidle"
+
+2026-05-08 21:29:05,747 [WARNING] 페이지 1 수집 실패, 중단
+2026-05-08 21:29:06,308 [WARNING] 수집된 기사가 없습니다.
+2026-05-08 21:29:17,112 [INFO] 크롤링 시작 | 검색어: '컨텍 우주' | 기간: 2023-01-01 ~ 2024-12-31
+2026-05-08 21:29:18,358 [INFO] 접속 시도: https://search.naver.com/search.naver?where=news&query=%EC%B...
+2026-05-08 21:29:48,441 [WARNING] Playwright 페이지 요청 실패: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://search.naver.com/search.naver?where=news&query=%EC%BB%A8%ED%85%8D%20%EC%9A%B0%EC%A3%BC&nso=so:dd,p:from20230101to20241231&start=1", waiting until "networkidle"
+
+2026-05-08 21:29:48,442 [WARNING] 페이지 1 수집 실패, 중단
+2026-05-08 21:29:49,042 [WARNING] 수집된 기사가 없습니다.
+2026-05-08 21:32:41,962 [INFO] 크롤링 시작 | 검색어: '컨텍 우주' | 기간: 2023-01-01 ~ 2024-12-31
+2026-05-08 21:33:28,321 [INFO] 페이지   1 | 신규 11건 수집 | 누적 11건
+2026-05-08 21:34:09,480 [INFO] 페이지   2 | 신규 10건 수집 | 누적 21건
+2026-05-08 21:34:12,887 [WARNING] Playwright 페이지 요청 실패: Page.goto: Target page, context or browser has been closed
+2026-05-08 21:34:12,887 [WARNING] 페이지 3 수집 실패, 중단
+2026-05-08 21:34:13,433 [INFO] 추출 방법 분포:
+extract_method
+bs4:generic(div.article-body)    8
+bs4:body_fallback                5
+bs4:generic(article)             5
+failed                           1
+2026-05-08 21:34:13,434 [INFO] 크롤링 완료 | 총 19건
+2026-05-08 21:34:13,445 [INFO] 저장 완료 → data\raw_articles.csv

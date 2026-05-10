@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+sentence-transformers
+konlpy
+beautifulsoup4
+lxml
+requests
+newspaper3k
+jupyter
+torch
