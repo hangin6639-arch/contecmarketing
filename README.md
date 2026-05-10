@@ -1,7 +1,6 @@
-============================================================
+
 README.txt
 Brand Identity vs Market Image Alignment Analysis Project
-============================================================
 
 프로젝트명:
 브랜드 정체성(Identity) - 시장 이미지(Image) 정렬 분석 프로젝트
